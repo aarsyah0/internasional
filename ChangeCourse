@@ -1,0 +1,19 @@
+<?php
+$jurusan = "Teknologi Informasi";
+
+switch ($jurusan) {
+    case "Teknologi Informasi":
+        echo "Selamat datang Mahasiswa Baru jurusan TI ";
+        break;
+    case "Teknologi Pertanian":
+        echo "Selamat datang Mahasiswa Baru jurusan TP ";
+        break;
+    case "Bahasa Komunikasi dan Pariwisata":
+        echo "Selamat datang Mahasiswa Baru jurusan BKP ";
+        break;
+    case "Kesehatan":
+        echo "Selamat datang Mahasiswa Baru jurusan Kesehatan ";
+        break;
+    default:
+    echo "Selamat datang Mahasiswa Baru jurusan Tekhnik ";
+}
